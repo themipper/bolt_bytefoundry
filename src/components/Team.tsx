@@ -5,8 +5,9 @@ const teamMembers = [
   {
     name: 'Martin Ibanez y Pomerol',
     role: 'Founder',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
+    image: 'https://www.martin-ibanez.de/foto.jpg',
     bio: 'With over 20 years of experience in technology and business leadership, Martin founded Byte Foundry with a vision to transform how businesses leverage technology.',
+    linkedin: 'https://www.linkedin.com/in/martinibanez/',
   },
 ];
 
@@ -39,7 +40,7 @@ const Team = () => {
                 <p className="text-primary font-medium">{member.role}</p>
                 <p className="mt-3 text-gray-400 text-sm">{member.bio}</p>
                 <div className="mt-4 flex space-x-3">
-                  <a href="#" className="text-gray-500 hover:text-primary transition-colors duration-200">
+                  <a href={member.linkedin} className="text-gray-500 hover:text-primary transition-colors duration-200">
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a href="#" className="text-gray-500 hover:text-primary transition-colors duration-200">
