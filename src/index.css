@@ -8,8 +8,8 @@
   top: 0;
 }
 
-.navbar-width {
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 9999px; /* Completely round corners */
+.gradient-text {
+  background: linear-gradient(to right, #ff6b6b, #4f46e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

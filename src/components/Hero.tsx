@@ -13,15 +13,16 @@ const Hero = () => {
         <div className="absolute h-3 w-3 rounded-full bg-primary opacity-20 top-1/2 left-2/3 animate-pulse" style={{animationDelay: '1s'}}></div>
         <div className="absolute h-2 w-2 rounded-full bg-secondary opacity-20 top-1/3 left-3/4 animate-pulse" style={{animationDelay: '1.5s'}}></div>
         <div className="absolute h-2 w-2 rounded-full bg-primary opacity-20 top-2/3 left-1/5 animate-pulse" style={{animationDelay: '2s'}}></div>
+      
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center md:text-left md:max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Increasing your <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">leads, meetings</span> and deals 10x
+            AI <span className="gradient-text">Agents</span>: Your gateway to <span className="gradient-text">automation</span> and digital transformation. Join the AI <span className="gradient-text">revolution</span>.
           </h1>
           <p className="mt-6 text-xl text-gray-300 max-w-3xl">
-            With infinite email sending accounts and warmup, a b2b lead database, and generative AI, your outreach efforts can be instantly scaled.
+            Ready to elevate your business with cutting-edge AI solutions? We leverage the latest tooling and frameworks to deliver custom automation and digital transformation tailored to your unique needs. Contact us today to schedule a consultation and discover how AI agents can drive efficiency and growth for your organization. Start your journey towards digital excellence now!
           </p>
           <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <a

@@ -19,6 +19,11 @@ export default {
           lighter: '#1a1a1a',
           light: '#2a2a2a',
         },
+        purple: {
+          DEFAULT: '#664bd6',
+          dark: '#4b0082',
+          light: '#9370db',
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
